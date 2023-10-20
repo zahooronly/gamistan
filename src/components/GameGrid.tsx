@@ -12,7 +12,7 @@ const GameGrid = () => {
         columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
         spacing={10}
       >
-        {isLoading && skulls.map((skull) => <GameCardSkeleton key={skull} />)}
+        {/* {isLoading && skulls.map((skull) => <GameCardSkeleton key={skull} />)} */}
         {games.map((game) => (
           <GameCard key={game.id} game={game} />
         ))}
